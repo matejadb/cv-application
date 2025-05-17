@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #f8f9fa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	-webkit-box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.63);
+	box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.63);
+	width: 600px;
+	margin: 18px;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons button {
+	width: 120px;
+	height: 32px;
+	border: none;
+	border-radius: 25px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #f8f9fa;
+}
+
+.submit-cv {
+	margin: 20px;
+}
+
+.output {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0 20px 0;
+}
